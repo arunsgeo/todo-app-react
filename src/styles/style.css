@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+body, html {
+    margin: 0;
+    font-family: 'Arvo', sans-serif;
+}
+input, a, button {
+	font-family: 'Arvo', sans-serif;
+}
+.wrapper {
+	width: 100%;
+	margin: 0px auto;
+}
+.container {
+	max-width: 1024px;
+	margin: 0px auto;
+}
+.header {
+	background: rgb(34,34,34);
+	background: linear-gradient(45deg, rgba(34,34,34,1) 0%, rgba(102,102,102,1) 100%);
+	padding: 40px 0px;
+	text-align: center;
+	color: #fff;
+}
+h1 {
+	margin: 0;
+}
+.todo {
+    padding: 40px 10px;
+    background: #fafafa;
+}
+.Top input[type="text"] {
+    padding: 8px 10px;
+    border: 1px solid #aaa;
+    font-size: 20px;
+}
+.btn-add:hover {
+    background: #32b26b;
+}
+.btn-add {
+    background: #32dc7e;
+    border: 1px solid #32b26b;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    line-height: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    min-width: 140px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.all_lists {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+}
+.all_lists .task {
+    margin: 8px 0px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task.done {
+    text-decoration: line-through;
+    color: #888;
+    opacity: .8;
+    background: #ddd;
+}
+li.task button:hover {
+    background: #b43737;
+}
+li.task button {
+	margin-left: 10px;
+    background: #e13232;
+    border: 1px solid #b43737;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.Top {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.task_name input[type="checkbox"] {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    margin-right: 10px;
+	width: 15px;
+    height: 15px;
+}
